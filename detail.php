@@ -93,7 +93,7 @@ if (isset($_POST["add"])) {
                     <p>Nama Seller : <?= $p['username_seller']; ?></p>
                     <p>Tanggal Produksi = <?= $p['tgl_produksi']; ?></p>
                     <p>Deskripsi : <?= $p['deskripsi']; ?></p>
-                    <p style="position: relative;bottom: 5px;color:green;font-weight: bold;">Rp<?= number_format($p['harga'],0,',','.'); ?></p>
+                    <p style="position: relative;bottom: 5px;color:red;font-weight: bold;">Rp<?= number_format($p['harga'],0,',','.'); ?></p>
                     <p>
 
                         <form action="" method="post" enctype="multipart/form-data">

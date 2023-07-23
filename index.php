@@ -78,7 +78,7 @@ if (isset($_POST["add"])) {
                     
                     <img src="images/<?= $p["gambar"]; ?>" class="featured-image">
                     <h4><?= $p["nama"]; ?></h4>
-                    <p style="position: relative;bottom: 5px;color:green;font-weight: bold;">Rp<?= number_format($p['harga'],0,',','.'); ?></p>
+                    <p style="position: relative;bottom: 5px;color:red;font-weight: bold;">Rp<?= number_format($p['harga'],0,',','.'); ?></p>
                     <p>
 
                         <?php if (isset($_SESSION['username'])) : ?>

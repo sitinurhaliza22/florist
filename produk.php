@@ -81,7 +81,7 @@ if (isset($_POST["pesan"])) {
         .harga {
             padding: 5px;
             border-radius: 5px;
-            color: green;
+            color: red;
             background-color: #90DE90;
         }
     </style>

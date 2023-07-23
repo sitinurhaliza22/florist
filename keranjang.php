@@ -73,7 +73,7 @@ $total_keranjang = mysqli_num_rows($keranjang);
             <?php foreach ($keranjang as $p) : ?>
                 <div class="card card-p">
                     <h4><?= $p["nama"]; ?></h4>
-                    <p style="position: relative;bottom: 5px;color:green;font-weight: bold;">Rp<?= number_format($p['harga'],0,',','.'); ?></p>
+                    <p style="position: relative;bottom: 5px;color:red;font-weight: bold;">Rp<?= number_format($p['harga'],0,',','.'); ?></p>
                     <p>
                         <a href="produk.php?id=<?= $p['id_produk']; ?>" class="btn">Checkout</a> 
                         <a href="hapus-keranjang.php?id=<?= $p['id']; ?>">Hapus</a>

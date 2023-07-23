@@ -54,12 +54,11 @@ $total_produk = mysqli_num_rows($produk);
             <ul>
                 <li><a href="index.php">Beranda</a></li>
                 <li><a href="pesanan.php">Pesanan Saya</a></li>
-                <li><a href="tentang.php">Tentang Kami</a></li>
                 <li><a href="logout.php" class="btn" style="border-bottom: none;">Logout</a></li>
             </ul>
         </nav>
         <div class="jumbotron">
-            <h3>Toko Daging Segar <i class="fab fa-accusoft"></i></h3>
+            <h3>Ailee's Florist <i class="fab fa-accusoft"></i></h3>
             <p>Hai,
             <?php
                     if (isset($_SESSION['username'])) {
