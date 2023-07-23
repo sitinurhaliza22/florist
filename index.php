@@ -69,7 +69,7 @@ if (isset($_POST["add"])) {
 
     <main>
         <article class="card">
-            <marquee><h3 style="color:royalblue;">Selamat Datang di Ailee's Florist</h3></marquee>
+            <marquee><h3 style="color:chocolate;">Selamat Datang di Ailee's Florist</h3></marquee>
         </article>
 
             <div style="display: flex;justify-content: flex-start;flex-wrap: wrap; width: 100%;">
